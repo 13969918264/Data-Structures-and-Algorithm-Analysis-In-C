@@ -2,7 +2,7 @@
 	Name: 赵子豪(ZiHao Zhao)
 	Date: 2017年12月16日
 */
-/*	test_file_generator.c -- generate 100 pseudonumber by calling the standard library and sort it	*/
+/*	test_file_generator.c -- generate pseudonumbers by calling the standard library and sort it	*/
 #include <stdio.h>
 #include <math.h>
 
