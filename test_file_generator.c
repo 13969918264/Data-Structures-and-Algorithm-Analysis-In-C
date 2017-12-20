@@ -2,17 +2,19 @@
 	Name: 赵子豪(ZiHao Zhao)
 	Date: 2017年12月16日
 */
-/*	test_file_generator.c -- generate pseudonumbers by calling the standard library and sort it	*/
+/*	test_file_generator.c -- generate pseudonumbers by calling the standard library and for sort	*/
 #include <stdio.h>
-#include <math.h>
+#include <stdlib.h>
 
-#define MAX 100000
+#define MAX 1000000000
 
 int main(void)
 {
-	int i;
+	long long int i;
 
 	for (i = 0; i < MAX; i++)
-		printf("%d\n", rand());
+		printf("%ld\n", rand() * rand() * rand());
+
 	return 0;
+
 }
